@@ -81,8 +81,8 @@ function ContactPage() {
               <div className="glass-card rounded-3xl p-8">
                 <h3 className="font-display text-lg font-bold text-navy">Office</h3>
                 <div className="mt-6 space-y-5 text-sm text-navy/75">
-                  <Row icon={MapPin} label="Corporate Office" value="Manchanda House, House No 50, Sector 8, Faridabad – 121006 (Haryana)" />
-                  <Row icon={MapPin} label="Branch Office" value="Manchanda House, House No 414, Sector 40, Gurugram – 122003 (Haryana)" />
+                  <Row icon={MapPin} label="Corporate Office" value="House No 50, Sector 8, Faridabad – 121006 (Haryana)" />
+                  <Row icon={MapPin} label="Branch Office" value="House No 414, Sector 40, Gurugram – 122003 (Haryana)" />
                   <Row icon={Mail} label="Email" value="chargemanenergy@gmail.com" href="mailto:chargemanenergy@gmail.com" />
                   <Row
                     icon={Phone}
@@ -99,7 +99,7 @@ function ContactPage() {
               </div>
               <div className="rounded-3xl border border-navy/10 bg-white p-5">
                 <div className="text-xs font-semibold tracking-[0.08em] text-navy/55">
-                  Corporate Office · Manchanda House, House No 50, Sector 8, Faridabad
+                  Corporate Office · House No 50, Sector 8, Faridabad
                 </div>
                 <div className="mt-3 overflow-hidden rounded-2xl">
                   <iframe
@@ -112,7 +112,7 @@ function ContactPage() {
               </div>
               <div className="rounded-3xl border border-navy/10 bg-white p-5">
                 <div className="text-xs font-semibold tracking-[0.08em] text-navy/55">
-                  Branch Office · Manchanda House, House No 414, Sector 40, Gurugram
+                  Branch Office · House No 414, Sector 40, Gurugram
                 </div>
                 <div className="mt-3 overflow-hidden rounded-2xl">
                   <iframe
