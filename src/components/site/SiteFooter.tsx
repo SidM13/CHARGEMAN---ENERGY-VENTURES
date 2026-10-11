@@ -35,7 +35,7 @@ export function SiteFooter() {
                   <span className="block text-[11px] font-semibold tracking-[0.06em] text-white/55">
                     Corporate Office
                   </span>
-                  Manchanda House, House No 50, Sector 8, Faridabad – 121006 (Haryana)
+                  House No 50, Sector 8, Faridabad – 121006 (Haryana)
                 </span>
               </div>
               <div className="flex items-start gap-3">
@@ -44,7 +44,7 @@ export function SiteFooter() {
                   <span className="block text-[11px] font-semibold tracking-[0.06em] text-white/55">
                     Branch Office
                   </span>
-                  Manchanda House, House No 414, Sector 40, Gurugram – 122003 (Haryana)
+                  House No 414, Sector 40, Gurugram – 122003 (Haryana)
                 </span>
               </div>
               <div className="flex items-start gap-3">
