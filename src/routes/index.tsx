@@ -15,8 +15,7 @@ import {
 import { useRef } from "react";
 import { Reveal, StatCounter } from "@/components/site/Reveal";
 import hero from "@/assets/hero-energy.jpg";
-import portraitAsset from "@/assets/pankaj-portrait.png.asset.json";
-const portrait = portraitAsset.url;
+import portrait from "@/assets/pankaj-portrait.png";
 import { featuredExpertise } from "@/content/expertise";
 import { featuredProjects } from "@/content/projects";
 import engineers from "@/assets/engineers.jpg";

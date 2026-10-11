@@ -15,7 +15,7 @@ import energyAdvisoryImage from "@/assets/energy-advisory.jpg";
 import energyAdvisoryTileImage from "@/assets/energy-advisory-tile.jpg";
 import engineeringEpcImage from "@/assets/engineering-epc.jpg";
 import pankajSiteImage from "@/assets/pankaj-site.jpg";
-import pankajDeskAsset from "@/assets/pankaj-desk.jpg.asset.json";
+import pankajDeskImage from "@/assets/pankaj-desk.jpg";
 
 export type ExpertiseItem = {
   slug: string;
@@ -165,7 +165,7 @@ export const expertiseItems: ExpertiseItem[] = [
         caption: "In the boardroom — PANKAJ MANCHANDA on crude trading, merger discussions and legal agreements.",
       },
       {
-        src: pankajDeskAsset.url,
+        src: pankajDeskImage,
         alt: "PANKAJ MANCHANDA seated at his executive office desk in a navy suit, a laptop and documents on the desk, glass-walled office behind him",
         caption: "At the desk — PANKAJ MANCHANDA, where advisory work is run day to day.",
       },
