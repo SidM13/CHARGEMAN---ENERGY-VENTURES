@@ -8,11 +8,8 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   vite: {
-    // GitHub Pages serves project sites from /<repository>/ rather than /.
-    base:
-      process.env.GITHUB_PAGES === "true"
-        ? "/CHARGEMAN---ENERGY-VENTURES/"
-        : "/",
+    // The site is published at the root of chargemanenergy.com.
+    base: "/",
   },
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
