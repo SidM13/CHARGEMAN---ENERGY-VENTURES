@@ -64,9 +64,9 @@ function AboutPage() {
                 <div className="mt-3 flex items-start gap-2 text-sm text-navy/60">
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-energy" />
                   <span>
-                    Corporate Office · Manchanda House, House No 50, Sector 8, Faridabad – 121006 (Haryana)
+                    Corporate Office · House No 50, Sector 8, Faridabad – 121006 (Haryana)
                     <br />
-                    Branch Office · Manchanda House, House No 414, Sector 40, Gurugram – 122003 (Haryana)
+                    Branch Office · House No 414, Sector 40, Gurugram – 122003 (Haryana)
                   </span>
                 </div>
               </div>
