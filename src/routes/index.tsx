@@ -150,9 +150,9 @@ function Hero() {
                 <div className="mt-3 flex items-start gap-2 text-xs text-white/65">
                   <MapPin className="mt-0.5 h-3.5 w-3.5 shrink-0 text-energy-soft" />
                   <span>
-                    Corporate Office · Manchanda House, House No 50, Sector 8, Faridabad
+                    Corporate Office · House No 50, Sector 8, Faridabad
                     <br />
-                    Branch Office · Manchanda House, House No 414, Sector 40, Gurugram
+                    Branch Office · House No 414, Sector 40, Gurugram
                   </span>
                 </div>
               </div>
