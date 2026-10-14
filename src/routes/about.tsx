@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader } from "@/components/site/PageHeader";
 import { Reveal } from "@/components/site/Reveal";
 import { MapPin } from "lucide-react";
-import portrait from "@/assets/pankaj-portrait.png";
+import portrait from "@/assets/pankaj-portrait.jpg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({

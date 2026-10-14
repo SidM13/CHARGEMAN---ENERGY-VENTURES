@@ -15,7 +15,7 @@ import {
 import { useRef } from "react";
 import { Reveal, StatCounter } from "@/components/site/Reveal";
 import hero from "@/assets/hero-energy.jpg";
-import portrait from "@/assets/pankaj-portrait.png";
+import portrait from "@/assets/pankaj-portrait.jpg";
 import { featuredExpertise } from "@/content/expertise";
 import { featuredProjects } from "@/content/projects";
 import engineers from "@/assets/engineers.jpg";
