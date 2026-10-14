@@ -12,10 +12,17 @@ import {
 } from "lucide-react";
 
 import energyAdvisoryImage from "@/assets/energy-advisory.jpg";
-import energyAdvisoryTileImage from "@/assets/energy-advisory-tile.jpg";
-import engineeringEpcImage from "@/assets/engineering-epc.jpg";
+import energyAdvisorImage from "@/assets/energy-advisor-card.jpg";
+import engineeringEpcImage from "@/assets/engineering-epc-card.jpg";
+import energyTransitionStrategyImage from "@/assets/energy-transition-strategy-card.jpg";
+import investmentTddImage from "@/assets/investment-tdd-card.jpg";
+import lngGasValueChainImage from "@/assets/lng-gas-value-chain-card.jpg";
+import marketingBusinessDevelopmentImage from "@/assets/marketing-business-development-card.jpg";
 import pankajSiteImage from "@/assets/pankaj-site.jpg";
 import pankajDeskImage from "@/assets/pankaj-desk.jpg";
+import powerGridImage from "@/assets/power-grid-card.jpg";
+import solarUtilityRenewablesImage from "@/assets/solar-utility-renewables-card.jpg";
+import upstreamOilGasImage from "@/assets/upstream-oil-gas-card.jpg";
 
 export type ExpertiseItem = {
   slug: string;
@@ -76,6 +83,8 @@ export const expertiseItems: ExpertiseItem[] = [
     slug: "upstream-oil-gas",
     icon: Fuel,
     title: "Upstream Oil & Gas",
+    image: upstreamOilGasImage,
+    imageAlt: "PANKAJ MANCHANDA reviewing upstream oil and gas production operations with an engineer in a modern control room",
     body: "Exploration strategy, drilling optimisation, and production management for onshore and offshore assets.",
     overview: [
       "Upstream oil and gas remains the backbone of global energy supply, yet the operating environment has never been more complex. Capital discipline, ESG scrutiny and volatile commodity cycles demand a new class of advisory partner — one that combines deep operational experience with sharp commercial judgement.",
@@ -129,6 +138,8 @@ export const expertiseItems: ExpertiseItem[] = [
     slug: "marketing-business-development",
     icon: Lightbulb,
     title: "Marketing & Business Development",
+    image: marketingBusinessDevelopmentImage,
+    imageAlt: "PANKAJ MANCHANDA presenting an energy market growth strategy to business partners in a conference room",
     body: "Commercial strategy, offtake structuring, and market entry for energy majors.",
     overview: [
       "Great assets do not automatically become great businesses. Turning molecules and electrons into durable margins requires disciplined commercial strategy, deep customer insight, and structured offtake execution.",
@@ -151,8 +162,8 @@ export const expertiseItems: ExpertiseItem[] = [
     slug: "energy-consulting",
     icon: Compass,
     title: "Energy Advisory",
-    image: energyAdvisoryTileImage,
-    imageAlt: "PANKAJ MANCHANDA seated at his executive office desk with a laptop and documents, glass-walled office behind him",
+    image: energyAdvisorImage,
+    imageAlt: "PANKAJ MANCHANDA leading an executive energy portfolio advisory session in a modern boardroom",
     gallery: [
       {
         src: pankajSiteImage,
@@ -192,6 +203,8 @@ export const expertiseItems: ExpertiseItem[] = [
     slug: "solar-utility-scale-renewables",
     icon: Sun,
     title: "Solar & Utility-Scale Renewables",
+    image: solarUtilityRenewablesImage,
+    imageAlt: "PANKAJ MANCHANDA and an engineer reviewing plans during a utility-scale solar farm inspection",
     body: "Feasibility, structuring and execution of large-scale solar and hybrid projects.",
     overview: [
       "Utility-scale solar has moved from novelty to backbone technology in less than a decade. But scale brings complexity — land, grid, offtake, financing and O&M all determine whether a project delivers on its promise.",
@@ -214,6 +227,8 @@ export const expertiseItems: ExpertiseItem[] = [
     slug: "lng-gas-value-chain",
     icon: Waves,
     title: "LNG & Gas Value Chain",
+    image: lngGasValueChainImage,
+    imageAlt: "PANKAJ MANCHANDA reviewing operations with engineers at a coastal LNG terminal",
     body: "Liquefaction, regasification, and gas trading advisory across the value chain.",
     overview: [
       "LNG has become a truly global commodity, and gas remains the critical bridge fuel across most credible transition scenarios. Managing exposure, infrastructure and contracts across this chain is a strategic imperative.",
@@ -236,6 +251,8 @@ export const expertiseItems: ExpertiseItem[] = [
     slug: "investment-technical-due-diligence",
     icon: Gauge,
     title: "Investment & TDD",
+    image: investmentTddImage,
+    imageAlt: "PANKAJ MANCHANDA leading technical due diligence for an institutional energy investment",
     body: "Technical due diligence and investment advisory for institutional capital.",
     overview: [
       "Institutional capital deployed into energy assets demands a level of technical scrutiny that generalist advisors cannot deliver. The difference between a good return and a write-down often lies in details buried deep in engineering, geology or contracts.",
@@ -258,6 +275,8 @@ export const expertiseItems: ExpertiseItem[] = [
     slug: "power-grid",
     icon: Zap,
     title: "Power & Grid",
+    image: powerGridImage,
+    imageAlt: "PANKAJ MANCHANDA reviewing transmission and grid integration plans with power system engineers",
     body: "Power sector advisory across generation, transmission and integration.",
     overview: [
       "The power sector is being rewired in real time — by renewables, digitalisation and shifting demand patterns. Utilities, IPPs and grid operators need advisors who understand both the physics and the economics.",
@@ -280,6 +299,8 @@ export const expertiseItems: ExpertiseItem[] = [
     slug: "energy-transition-strategy",
     icon: ArrowRight,
     title: "Energy Transition Strategy",
+    image: energyTransitionStrategyImage,
+    imageAlt: "PANKAJ MANCHANDA leading a net-zero energy transition roadmap workshop",
     body: "Net-zero pathways and enterprise-wide transition programs for energy majors.",
     overview: [
       "The energy transition is not a single decision — it is a decade-long, enterprise-wide reshaping of portfolios, capabilities and culture. Half-measures produce stranded assets; over-rotation destroys capital.",

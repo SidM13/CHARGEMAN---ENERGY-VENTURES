@@ -36,7 +36,16 @@ function ExpertisePage() {
                   params={{ slug: it.slug }}
                   className="group block h-full rounded-3xl border border-navy/10 bg-white p-8 transition-all hover:-translate-y-1 hover:border-energy/30 hover:shadow-xl hover:shadow-navy/10"
                 >
-                  {it.image && <img src={it.image} alt={it.imageAlt} width={1408} height={1008} loading="lazy" className="mb-6 aspect-[7/4] w-full rounded-xl object-cover" />}
+                  {it.image && (
+                    <img
+                      src={it.image}
+                      alt={it.imageAlt}
+                      width={1672}
+                      height={941}
+                      loading="lazy"
+                      className="mb-6 aspect-[7/4] w-full rounded-xl object-cover"
+                    />
+                  )}
                   <div
                     className="grid h-12 w-12 place-items-center rounded-2xl text-white"
                     style={{ background: "linear-gradient(135deg,#071B34,#0E6FFF)" }}
