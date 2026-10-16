@@ -26,12 +26,12 @@ export const Route = createFileRoute("/about")({
 });
 
 const journey = [
-  { year: "1987", title: "Career Begins", body: "Joined ONGC — foundation years across upstream operations." },
-  { year: "1995-2010", title: "Operational Leadership", body: "Progressive leadership roles across major field, EPC and marketing functions." },
-  { year: "2010-2020", title: "Chief General Manager, ONGC & OGL", body: "Executive leadership of complex energy programs at Oil and Natural Gas Corporation (ONGC) and ONGC Green Limited (OGL)." },
-  { year: "2020", title: "Strategic Consulting", body: "Advisory to PSUs, Government and private energy majors on transition strategy." },
-  { year: "2024", title: "Chargeman Energy Ventures", body: "Founded to deliver executive-grade energy advisory and ventures worldwide." },
-  { year: "Future", title: "Energy Transition", body: "Scaling investments in renewables, hydrogen and sustainable ventures." },
+  { year: "1988", title: "Career Begins", body: "Joined ONGC — foundation years across upstream operations." },
+  { year: "1989-2007", title: "Operational Leadership", body: "Progressive leadership roles across major field, EPC and marketing functions." },
+  { year: "2007-2018", title: "Project Management", body: "Led planning, execution and delivery of large-scale oil and gas projects across ONGC operations." },
+  { year: "2018-2021", title: "Chief General Manager (Marketing)", body: "Directed marketing and business development for ONGC's oil and gas portfolio." },
+  { year: "2022-2026", title: "Chief General Manager, ONGC & OGL (Including Strategy)", body: "Executive leadership of energy programs and strategy at Oil and Natural Gas Corporation (ONGC) and ONGC Green Limited (OGL)." },
+  { year: "2026", title: "Consulting and Energy Transition", body: "Oil and Gas Consulting." },
 ];
 
 function AboutPage() {
