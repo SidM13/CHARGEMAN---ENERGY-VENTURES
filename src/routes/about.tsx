@@ -31,7 +31,7 @@ const journey = [
   { year: "2007-2018", title: "Project Management", body: "Led planning, execution and delivery of large-scale oil and gas projects across ONGC operations." },
   { year: "2018-2021", title: "Chief General Manager (Marketing)", body: "Marketing and business development for ONGC's oil, gas and petro products." },
   { year: "2022-2026", title: "Chief General Manager, ONGC & OGL (Including Strategy)", body: "Executive leadership of energy programs and strategy at Oil and Natural Gas Corporation (ONGC) and ONGC Green Limited (OGL)." },
-  { year: "2026", title: "Consulting and Energy Transition", body: " },
+  { year: "2026", title: "Consulting and Energy Transition", body: "" },
 ];
 
 function AboutPage() {
